@@ -1,0 +1,14 @@
+/.gradle
+/.idea
+app/build/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json
+/app
+local.properties
+gradle/wrapper/gradle-wrapper.properties
+build/reports/problems/problems-report.html
+build.gradle
+build.gradle
+gradle/wrapper/gradle-wrapper.properties
+build.gradle
+gradle/wrapper/gradle-wrapper.properties
+*.gradle
+*.gradle
