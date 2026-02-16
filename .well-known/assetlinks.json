@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.dehypnotic.brainwavesync",
+      "sha256_cert_fingerprints": [
+        "7B:C4:B0:BE:32:60:64:DA:D5:10:44:42:5D:C5:8C:FC:40:19:22:98:5F:2F:6A:AB:26:35:26:7E:BB:97:FC:BD"
+      ]
+    }
+  }
+]
+
