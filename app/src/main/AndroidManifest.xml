@@ -19,7 +19,7 @@
             android:name="com.dehypnotic.brainwavesync.MainActivity"
             android:exported="true"
             android:launchMode="singleTask"
-            android:screenOrientation="sensorLandscape">
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -31,7 +31,7 @@
                 <category android:name="android.intent.category.BROWSABLE" />
                 <data
                     android:host="dehypnotic.github.io"
-                    android:pathPrefix="/pwa-brainwave-sync"
+                    android:pathPrefix="/twa-brainwave-sync"
                     android:scheme="https" />
             </intent-filter>
 
