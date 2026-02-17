@@ -31,7 +31,7 @@
                 <category android:name="android.intent.category.BROWSABLE" />
                 <data
                     android:host="dehypnotic.github.io"
-                    android:pathPrefix="/android_twa_brainwave_sync"
+                    android:pathPrefix="/pwa-brainwave-sync"
                     android:scheme="https" />
             </intent-filter>
 
