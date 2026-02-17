@@ -13,7 +13,7 @@
 
         <meta-data
             android:name="asset_statements"
-            android:resource="@raw/asset_statements" />
+            android:value="@string/asset_statements" />
 
         <activity
             android:name="com.dehypnotic.brainwavesync.MainActivity"
