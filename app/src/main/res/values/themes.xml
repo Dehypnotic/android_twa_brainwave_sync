@@ -1,4 +1,11 @@
 <resources>
-  <style name="Theme.BrainwaveSync" parent="@style/Theme.AppCompat.Light.NoActionBar" />
+    <!-- Base application theme. -->
+    <style name="Theme.BrainwaveSync" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/status_bar_color</item>
+        <!-- Navigation bar color. -->
+        <item name="android:navigationBarColor">@color/navigation_bar_color</item>
+        <!-- Window background -->
+        <item name="android:windowBackground">@color/status_bar_color</item>
+    </style>
 </resources>
-
