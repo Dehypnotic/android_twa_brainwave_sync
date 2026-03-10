@@ -1,7 +1,7 @@
 <resources>
   <string name="app_name">Brainwave Sync</string>
   <string name="default_url">https://dehypnotic.github.io/twa-brainwave-sync/</string>
-  <string name="asset_statements">
+  <string name="asset_statements" translatable="false">
     [{\n      \"relation\": [\"delegate_permission/common.handle_all_urls\"],\n      \"target\": {\n        \"namespace\": \"web\",\n        \"site\": \"https://dehypnotic.github.io\"\n      }\n    }]
   </string>
 </resources>

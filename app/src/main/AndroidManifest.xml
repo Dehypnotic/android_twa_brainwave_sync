@@ -13,7 +13,7 @@
 
         <meta-data
             android:name="asset_statements"
-            android:value="@string/asset_statements" />
+            android:resource="@string/asset_statements" />
 
         <activity
             android:name="com.dehypnotic.brainwavesync.MainActivity"
@@ -32,7 +32,6 @@
                 <category android:name="android.intent.category.BROWSABLE" />
                 <data
                     android:host="dehypnotic.github.io"
-                    android:pathPrefix="/twa-brainwave-sync"
                     android:scheme="https" />
             </intent-filter>
 
@@ -50,6 +49,15 @@
                 android:name="android.support.customtabs.trusted.DISPLAY_MODE"
                 android:value="fullscreen" />
         </activity>
+
+        <service
+            android:name="com.google.androidbrowserhelper.trusted.DelegationService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.support.customtabs.trusted.TRUSTED_WEB_ACTIVITY_SERVICE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
 
     </application>
 </manifest>
